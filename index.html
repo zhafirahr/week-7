@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>F.R Financial Notebook</h1>
+    <ul id="financial_tracker_list"></ul>
+    <form id="financial_tracker_form" action="">
+      <div class="field">
+        <select id="type">
+          <option value="Cash in">Cash in</option>
+          <option value="Cash out">Cash out</option>
+        </select>
+      </div>
+      <input id="activity" type="text" placeholder="Enter an Activity" />
+      <input id="details" type="text" placeholder="Enter Activity Details" />
+      <input id="amount" type="number" placeholder="Enter amounts(Rp.)" />
+      <button id="btn" type="submit">Add</button>
+    </form>
+
+    <script src="dist/app.js"></script>
+  </body>
+</html>
